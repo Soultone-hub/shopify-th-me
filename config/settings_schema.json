@@ -97,7 +97,69 @@
           "secondary_button": "background",
           "on_secondary_button": "secondary_button_label",
           "secondary_button_border": "secondary_button_label"
-        }
+        },
+        "default": [
+          {
+            "id": "scheme-1",
+            "settings": {
+              "background": "#FAFAF8",
+              "background_gradient": "",
+              "text": "#1A2E2E",
+              "button": "#1A2E2E",
+              "button_label": "#FAFAF8",
+              "secondary_button_label": "#1A2E2E",
+              "shadow": "#1A2E2E"
+            }
+          },
+          {
+            "id": "scheme-2",
+            "settings": {
+              "background": "#EEF4F2",
+              "background_gradient": "",
+              "text": "#1A2E2E",
+              "button": "#1A2E2E",
+              "button_label": "#EEF4F2",
+              "secondary_button_label": "#1A2E2E",
+              "shadow": "#1A2E2E"
+            }
+          },
+          {
+            "id": "scheme-3",
+            "settings": {
+              "background": "#0B3D37",
+              "background_gradient": "",
+              "text": "#FAFAF8",
+              "button": "#1A9E85",
+              "button_label": "#FFFFFF",
+              "secondary_button_label": "#FAFAF8",
+              "shadow": "#000000"
+            }
+          },
+          {
+            "id": "scheme-4",
+            "settings": {
+              "background": "#1A2E2E",
+              "background_gradient": "",
+              "text": "#FFFFFF",
+              "button": "#FFFFFF",
+              "button_label": "#1A2E2E",
+              "secondary_button_label": "#FFFFFF",
+              "shadow": "#000000"
+            }
+          },
+          {
+            "id": "scheme-5",
+            "settings": {
+              "background": "#1A9E85",
+              "background_gradient": "",
+              "text": "#FFFFFF",
+              "button": "#FFFFFF",
+              "button_label": "#1A9E85",
+              "secondary_button_label": "#FFFFFF",
+              "shadow": "#0B3D37"
+            }
+          }
+        ]
       }
     ]
   },
