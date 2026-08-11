@@ -93,35 +93,9 @@
         "collection_inverse_logo": false,
         "text_color_transparent_collection": ""
       }
-    },
-    "announcement_bar_nzJTWx": {
-      "type": "announcement-bar",
-      "blocks": {
-        "announcement_t3qUBJ": {
-          "type": "announcement",
-          "settings": {
-            "text": "missing translation: \"t:sections.announcement-bar.blocks.announcement.settings.text.default\"",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "announcement_t3qUBJ"
-      ],
-      "name": "t:sections.announcement-bar.presets.name",
-      "settings": {
-        "auto_rotate": false,
-        "change_slides_speed": 5,
-        "color_scheme": "",
-        "show_line_separator": true,
-        "show_social": false,
-        "enable_country_selector": false,
-        "enable_language_selector": false
-      }
     }
   },
   "order": [
-    "header",
-    "announcement_bar_nzJTWx"
+    "header"
   ]
 }
