@@ -53,31 +53,6 @@
             "padding-inline-end": 0
           },
           "blocks": {
-            "newsletter_text": {
-              "type": "text",
-              "settings": {
-                "text": "",
-                "width": "fit-content",
-                "max_width": "normal",
-                "alignment": "left",
-                "type_preset": "rte",
-                "font": "var(--font-body--family)",
-                "font_size": "1rem",
-                "line_height": "normal",
-                "letter_spacing": "normal",
-                "case": "none",
-                "wrap": "pretty",
-                "text_color": "",
-                "background": false,
-                "background_color": "#00000026",
-                "corner_radius": 0,
-                "padding-block-start": 0,
-                "padding-block-end": 0,
-                "padding-inline-start": 0,
-                "padding-inline-end": 0
-              },
-              "blocks": {}
-            },
             "newsletter_signup": {
               "type": "email-signup",
               "settings": {
@@ -109,37 +84,37 @@
                 "padding-inline-end": 0
               },
               "blocks": {}
+            },
+            "menu_6bA64f": {
+              "type": "menu",
+              "name": "t:names.menu",
+              "settings": {
+                "menu": "footer",
+                "heading": "INFORMATIONS LÉGALES",
+                "menu_spacing": 12,
+                "show_as_accordion": false,
+                "accordion_icon": "caret",
+                "accordion_dividers": false,
+                "background_color": "",
+                "text_color": "",
+                "heading_preset": "h3",
+                "link_preset": "paragraph",
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
             }
           },
           "block_order": [
-            "newsletter_text",
-            "newsletter_signup"
+            "newsletter_signup",
+            "menu_6bA64f"
           ]
-        },
-        "footer_menu": {
-          "type": "menu",
-          "settings": {
-            "menu": "footer",
-            "heading": "INFORMATIONS LÉGALES",
-            "menu_spacing": 12,
-            "show_as_accordion": false,
-            "accordion_icon": "caret",
-            "accordion_dividers": false,
-            "background_color": "",
-            "text_color": "",
-            "heading_preset": "paragraph",
-            "link_preset": "paragraph",
-            "padding-block-start": 0,
-            "padding-block-end": 0,
-            "padding-inline-start": 0,
-            "padding-inline-end": 0
-          },
-          "blocks": {}
         }
       },
       "block_order": [
-        "newsletter_group",
-        "footer_menu"
+        "newsletter_group"
       ],
       "settings": {
         "section_width": "page-width",
