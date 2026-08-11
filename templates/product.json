@@ -3,13 +3,7 @@
     "main": {
       "type": "product-information",
       "blocks": {
-        "disclosures_faq": {
-          "type": "disclosures",
-          "settings": {
-            "divider_color": "{{ settings.color_palette.color2 }}"
-          }
-        },
-        "static-media-gallery": {
+        "media_gallery": {
           "type": "_product-media-gallery",
           "settings": {
             "layout": "grid",
@@ -17,97 +11,97 @@
             "enable_zoom": true
           }
         },
-        "static-product-details": {
+        "product_details": {
           "type": "_product-details",
           "settings": {
             "enable_sticky": true
           },
           "blocks": {
-            "title_group": {
-              "type": "group",
-              "settings": {},
-              "blocks": {
-                "product_title": {
-                  "type": "product-title",
-                  "settings": {
-                    "content": "<h1>{{ closest.product.title }}</h1>"
-                  }
-                },
-                "product_price": {
-                  "type": "price",
-                  "settings": {}
-                }
-              },
-              "block_order": ["product_title", "product_price"]
+            "breadcrumb": {
+              "type": "_inline-text",
+              "settings": { "text": "Correcteur lombaire" }
+            },
+            "title": {
+              "type": "product-title",
+              "settings": {}
+            },
+            "rating": {
+              "type": "review",
+              "settings": {}
+            },
+            "price": {
+              "type": "price",
+              "settings": {}
             },
             "divider_1": {
               "type": "_divider",
               "settings": {}
             },
-            "variant_picker": {
+            "variants": {
               "type": "variant-picker",
-              "settings": {
-                "style": "buttons"
-              }
+              "settings": { "style": "buttons" }
             },
-            "buy_buttons": {
+            "buy_group": {
               "type": "buy-buttons",
               "settings": {},
               "blocks": {
-                "quantity_input": {
-                  "type": "quantity",
-                  "settings": {}
-                },
-                "add_to_cart": {
+                "qty": { "type": "quantity", "settings": {} },
+                "atc": {
                   "type": "add-to-cart",
-                  "settings": {
-                    "label": "Ajouter au panier"
-                  }
+                  "settings": { "label": "Ajouter au panier" }
                 },
-                "accelerated_checkout": {
+                "checkout": {
                   "type": "accelerated-checkout",
                   "settings": {}
                 }
               },
-              "block_order": ["quantity_input", "add_to_cart", "accelerated_checkout"]
+              "block_order": ["qty", "atc", "checkout"]
             },
-            "product_description": {
+            "trust_icons": {
               "type": "text",
               "settings": {
-                "content": "{{ closest.product.description }}"
+                "content": "<p style='font-size:13px;color:#0B3D37;'>✅ Livraison gratuite &nbsp; | &nbsp; ↩️ Retours 30j &nbsp; | &nbsp; 🛡️ Garantie 1 an</p>"
+              }
+            },
+            "divider_2": {
+              "type": "_divider",
+              "settings": {}
+            },
+            "description": {
+              "type": "product-description",
+              "settings": {}
+            },
+            "accordion_usage": {
+              "type": "accordion",
+              "settings": {
+                "title": "Comment l'utiliser",
+                "content": "<p><strong>Étape 1 :</strong> Positionnez le correcteur dans votre dos.<br><strong>Étape 2 :</strong> Ajustez les sangles pour un maintien confortable.<br><strong>Étape 3 :</strong> Portez 2 à 4h par jour pour des résultats durables.<br><br>Résultats visibles en 2 à 3 semaines d'utilisation régulière.</p>"
               }
             },
             "accordion_shipping": {
               "type": "accordion",
               "settings": {
                 "title": "Livraison & Retours",
-                "content": "<p>🚚 Livraison gratuite en France métropolitaine sous 3-5 jours ouvrés.<br>↩️ Retours gratuits sous 30 jours — satisfait ou remboursé.</p>"
+                "content": "<p>🚚 Livraison offerte en France métropolitaine (3-5 jours)<br>📦 Livraison express disponible (24h)<br>↩️ Retours gratuits sous 30 jours — satisfait ou remboursé</p>"
               }
             },
-            "accordion_usage": {
+            "accordion_faq": {
               "type": "accordion",
               "settings": {
-                "title": "Comment l'utiliser ?",
-                "content": "<p>1. Placez l'étireur sur une surface plane<br>2. Allongez-vous en centrant votre zone lombaire<br>3. Commencez au niveau le plus bas<br>4. Restez 5 à 10 minutes par jour<br>5. Augmentez progressivement le niveau</p>"
-              }
-            },
-            "accordion_guarantee": {
-              "type": "accordion",
-              "settings": {
-                "title": "Notre garantie",
-                "content": "<p>✅ Garantie satisfait ou remboursé 30 jours<br>🛡️ Garantie fabricant 1 an<br>📞 Support client réactif 7j/7</p>"
+                "title": "Questions fréquentes",
+                "content": "<p><strong>Convient-il à toutes les morphologies ?</strong><br>Oui, disponible du S au XXL avec des sangles réglables.<br><br><strong>Puis-je le porter au bureau ?</strong><br>Absolument. Discret sous les vêtements, il est idéal pour le travail.<br><br><strong>Est-il remboursé par la Sécurité Sociale ?</strong><br>Non, mais son prix reste accessible. Contactez votre mutuelle pour vérifier votre couverture.</p>"
               }
             }
           },
-          "block_order": ["title_group", "divider_1", "variant_picker", "buy_buttons", "product_description", "accordion_shipping", "accordion_usage", "accordion_guarantee"]
+          "block_order": ["breadcrumb", "title", "rating", "price", "divider_1", "variants", "buy_group", "trust_icons", "divider_2", "description", "accordion_usage", "accordion_shipping", "accordion_faq"]
         }
       },
-      "block_order": ["disclosures_faq", "static-media-gallery", "static-product-details"],
+      "block_order": ["media_gallery", "product_details"],
       "settings": {
         "enable_sticky_add_to_cart": true
       }
     },
-    "product_recommendations": {
+    "recommendations": {
       "type": "product-recommendations",
       "settings": {
         "heading": "Vous aimerez aussi",
@@ -118,5 +112,5 @@
       }
     }
   },
-  "order": ["main", "product_recommendations"]
+  "order": ["main", "recommendations"]
 }

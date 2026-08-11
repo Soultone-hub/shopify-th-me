@@ -3,71 +3,67 @@
     "hero_main": {
       "type": "hero",
       "blocks": {
+        "badge": {
+          "type": "_inline-text",
+          "settings": {
+            "text": "⭐ Recommandé par + de 10 000 clients"
+          }
+        },
         "heading_1": {
-          "type": "_content",
+          "type": "_heading",
           "settings": {
-            "content": "<h1>Soulagez vos douleurs lombaires naturellement</h1>",
-            "color": "{{ settings.color_palette.background }}"
+            "heading": "Dites adieu aux douleurs lombaires",
+            "heading_size": "h1",
+            "color": "#FFFFFF"
           }
         },
-        "text_1": {
+        "subtext": {
           "type": "_content",
           "settings": {
-            "content": "<p>L'étireur lombaire SpinAlign — recommandé par les professionnels de santé pour un soulagement durable du dos.</p>",
-            "color": "{{ settings.color_palette.background }}"
+            "content": "<p>Notre correcteur lombaire soulage les tensions, améliore votre posture et vous redonne une vie sans douleur — dès la première utilisation.</p>",
+            "color": "#FFFFFF"
           }
         },
-        "button_1": {
+        "cta_primary": {
           "type": "button",
           "settings": {
-            "label": "Découvrir l'étireur",
+            "label": "Commander maintenant",
             "link": "shopify://collections/all",
             "style": "button-primary"
           }
+        },
+        "cta_secondary": {
+          "type": "button",
+          "settings": {
+            "label": "Voir comment ça marche →",
+            "link": "shopify://collections/all",
+            "style": "button-secondary"
+          }
         }
       },
-      "block_order": ["heading_1", "text_1", "button_1"],
+      "block_order": ["badge", "heading_1", "subtext", "cta_primary", "cta_secondary"],
       "settings": {
         "custom_height": true,
-        "height_large": 70,
-        "height_small": 60,
-        "overlay_color": "#0B3D3799",
+        "height_large": 75,
+        "height_small": 65,
+        "overlay_color": "#0B3D3780",
         "padding_block_start": 100,
         "padding_block_end": 80
       }
     },
-    "trust_bar": {
+    "trust_strip": {
       "type": "marquee",
       "blocks": {
-        "trust_1": {
-          "type": "_inline-text",
-          "settings": {
-            "text": "🚚 Livraison gratuite en France"
-          }
-        },
-        "trust_2": {
-          "type": "_inline-text",
-          "settings": {
-            "text": "✅ Garantie satisfait ou remboursé 30 jours"
-          }
-        },
-        "trust_3": {
-          "type": "_inline-text",
-          "settings": {
-            "text": "⭐ Recommandé par des professionnels de santé"
-          }
-        },
-        "trust_4": {
-          "type": "_inline-text",
-          "settings": {
-            "text": "🔒 Paiement 100% sécurisé"
-          }
-        }
+        "t1": { "type": "_inline-text", "settings": { "text": "🚚 Livraison offerte dès 49€" } },
+        "t2": { "type": "_inline-text", "settings": { "text": "↩️ Retours gratuits 30 jours" } },
+        "t3": { "type": "_inline-text", "settings": { "text": "🛡️ Garantie 1 an" } },
+        "t4": { "type": "_inline-text", "settings": { "text": "🔒 Paiement 100% sécurisé" } },
+        "t5": { "type": "_inline-text", "settings": { "text": "👨‍⚕️ Approuvé par des kinésithérapeutes" } }
       },
-      "block_order": ["trust_1", "trust_2", "trust_3", "trust_4"],
+      "block_order": ["t1", "t2", "t3", "t4", "t5"],
       "settings": {}
     },
-    "featured_product": {
+    "product_showcase": {
       "type": "product-list",
       "settings": {
         "collection": "all",
@@ -77,74 +73,87 @@
         "layout": "grid"
       }
     },
-    "benefits": {
+    "problem_solution": {
       "type": "media-with-content",
       "blocks": {
-        "benefit_heading": {
-          "type": "_content",
+        "eyebrow": {
+          "type": "_inline-text",
+          "settings": { "text": "Pourquoi notre correcteur ?" }
+        },
+        "title": {
+          "type": "_heading",
           "settings": {
-            "content": "<h2>Pourquoi choisir SpinAlign ?</h2><p>Conçu pour étirer progressivement votre colonne vertébrale, notre étireur lombaire soulage les tensions musculaires et améliore votre posture au quotidien.</p>"
+            "heading": "Conçu avec des experts de la santé du dos",
+            "heading_size": "h2"
           }
         },
-        "benefit_btn": {
+        "body": {
+          "type": "_content",
+          "settings": {
+            "content": "<p>95% des douleurs lombaires sont causées par un mauvais alignement de la colonne vertébrale. Notre correcteur lombaire agit directement sur la source du problème — pas juste les symptômes.</p><ul><li>Soulagement dès 15 minutes d'utilisation</li><li>Amélioration de la posture en 3 semaines</li><li>Utilisation guidée par notre application</li></ul>"
+          }
+        },
+        "cta": {
           "type": "button",
           "settings": {
-            "label": "En savoir plus",
+            "label": "Découvrir le produit",
             "link": "shopify://collections/all",
             "style": "button-primary"
           }
         }
       },
-      "block_order": ["benefit_heading", "benefit_btn"],
+      "block_order": ["eyebrow", "title", "body", "cta"],
       "settings": {}
     },
-    "faq_section": {
+    "how_it_works": {
       "type": "accordion",
       "blocks": {
-        "faq_heading": {
-          "type": "_content",
+        "section_title": {
+          "type": "_heading",
           "settings": {
-            "content": "<h2>Questions fréquentes</h2>"
+            "heading": "Comment ça fonctionne ?",
+            "heading_size": "h2"
           }
         },
-        "faq_1": {
+        "step1": {
           "type": "_accordion-row",
           "settings": {
-            "title": "Comment utiliser l'étireur lombaire ?",
-            "content": "<p>Placez l'étireur sur une surface plane, allongez-vous dessus en positionnant la courbe sous votre zone lombaire. Commencez avec le niveau le plus bas et augmentez progressivement. Utilisez-le 5 à 10 minutes par jour.</p>"
+            "title": "① Positionnez le correcteur",
+            "content": "<p>Placez le correcteur lombaire dans votre dos en position assise ou debout. La forme anatomique s'adapte naturellement à votre colonne vertébrale.</p>"
           }
         },
-        "faq_2": {
+        "step2": {
           "type": "_accordion-row",
           "settings": {
-            "title": "En combien de temps vais-je ressentir les effets ?",
-            "content": "<p>La plupart de nos clients ressentent un soulagement dès la première utilisation. Pour des résultats durables, nous recommandons une utilisation régulière pendant 2 à 3 semaines.</p>"
+            "title": "② Ajustez la pression",
+            "content": "<p>Réglez le niveau de soutien selon votre confort. Commencez doucement et augmentez progressivement sur quelques jours.</p>"
           }
         },
-        "faq_3": {
+        "step3": {
           "type": "_accordion-row",
           "settings": {
-            "title": "Est-ce adapté à tous ?",
-            "content": "<p>Notre étireur convient à la majorité des adultes. Cependant, si vous souffrez d'une hernie discale, d'ostéoporose ou d'une condition médicale grave, veuillez consulter votre médecin avant utilisation.</p>"
+            "title": "③ Portez-le au quotidien",
+            "content": "<p>Portez votre correcteur 2 à 4 heures par jour — au bureau, à la maison ou lors de vos déplacements. Les résultats apparaissent en 2 à 3 semaines.</p>"
           }
         },
-        "faq_4": {
+        "faq1": {
+          "type": "_accordion-row",
+          "settings": {
+            "title": "Est-ce que ça convient à tout le monde ?",
+            "content": "<p>Notre correcteur s'adapte à la majorité des morphologies (taille S à XXL). En cas de condition médicale grave (hernie discale sévère, fracture), consultez votre médecin avant utilisation.</p>"
+          }
+        },
+        "faq2": {
           "type": "_accordion-row",
           "settings": {
             "title": "Quelle est votre politique de retour ?",
-            "content": "<p>Nous offrons une garantie satisfait ou remboursé de 30 jours. Si vous n'êtes pas entièrement satisfait, retournez-nous le produit et nous vous rembourserons intégralement.</p>"
+            "content": "<p>Satisfait ou remboursé sous 30 jours — sans condition et sans justification. Votre confiance est notre priorité.</p>"
           }
         }
       },
-      "block_order": ["faq_heading", "faq_1", "faq_2", "faq_3", "faq_4"],
+      "block_order": ["section_title", "step1", "step2", "step3", "faq1", "faq2"],
       "settings": {}
     }
   },
-  "order": [
-    "hero_main",
-    "trust_bar",
-    "featured_product",
-    "benefits",
-    "faq_section"
-  ]
+  "order": ["hero_main", "trust_strip", "product_showcase", "problem_solution", "how_it_works"]
 }
