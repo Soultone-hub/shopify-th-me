@@ -57,9 +57,9 @@
         "show_search": true,
         "search_position": "right",
         "search_row": "top",
-        "show_country": true,
-        "country_selector_style": true,
-        "show_language": true,
+        "show_country": false,
+        "country_selector_style": false,
+        "show_language": false,
         "localization_font": "heading",
         "localization_font_size": "1rem",
         "localization_position": "right",
@@ -93,9 +93,35 @@
         "collection_inverse_logo": false,
         "text_color_transparent_collection": ""
       }
+    },
+    "announcement_bar_nzJTWx": {
+      "type": "announcement-bar",
+      "blocks": {
+        "announcement_t3qUBJ": {
+          "type": "announcement",
+          "settings": {
+            "text": "missing translation: \"t:sections.announcement-bar.blocks.announcement.settings.text.default\"",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "announcement_t3qUBJ"
+      ],
+      "name": "t:sections.announcement-bar.presets.name",
+      "settings": {
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "color_scheme": "",
+        "show_line_separator": true,
+        "show_social": false,
+        "enable_country_selector": false,
+        "enable_language_selector": false
+      }
     }
   },
   "order": [
-    "header"
+    "header",
+    "announcement_bar_nzJTWx"
   ]
 }
