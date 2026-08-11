@@ -1,0 +1,449 @@
+{
+  "sections": {
+    "image_banner": {
+      "type": "image-banner",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Soulagez votre dos en 10 minutes par jour",
+            "heading_size": "h0"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "L'étireur lombaire cliniquement prouvé pour décompresser la colonne vertébrale et soulager les douleurs chroniques du bas du dos.",
+            "text_style": "body"
+          }
+        },
+        "button": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Commander maintenant",
+            "button_link_1": "/products",
+            "button_style_secondary_1": false,
+            "button_label_2": "Voir comment ça marche",
+            "button_link_2": "#how-it-works",
+            "button_style_secondary_2": true
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text",
+        "button"
+      ],
+      "settings": {
+        "image_overlay_opacity": 40,
+        "image_height": "large",
+        "desktop_content_position": "middle-left",
+        "show_text_box": false,
+        "image_behavior": "ambient",
+        "desktop_content_alignment": "left",
+        "color_scheme": "scheme-3",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": false,
+        "show_text_below": false
+      }
+    },
+    "trust_bar": {
+      "type": "multicolumn",
+      "blocks": {
+        "col1": {
+          "type": "column",
+          "settings": {
+            "image_width": "third",
+            "title": "✅ Résultats dès la 1ère utilisation",
+            "text": "Décompression vertébrale immédiate et soulagement des tensions musculaires.",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "col2": {
+          "type": "column",
+          "settings": {
+            "title": "🏥 Recommandé par les kinés",
+            "text": "Conçu selon les principes de la thérapie de traction lombaire utilisée en cabinet.",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "col3": {
+          "type": "column",
+          "settings": {
+            "title": "🔒 Garantie 30 jours satisfait ou remboursé",
+            "text": "Essayez sans risque. Si vous n'êtes pas soulagé, nous vous remboursons intégralement.",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "col4": {
+          "type": "column",
+          "settings": {
+            "title": "🚚 Livraison rapide & offerte",
+            "text": "Expédié sous 24h. Livraison gratuite à partir de 50€.",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "col1",
+        "col2",
+        "col3",
+        "col4"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h2",
+        "image_width": "third",
+        "image_ratio": "square",
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-1",
+        "columns_desktop": 4,
+        "column_alignment_mobile": "left",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "featured_product": {
+      "type": "featured-product",
+      "blocks": {
+        "text_badge": {
+          "type": "text",
+          "settings": {
+            "text": "⭐ Plus de 10 000 clients soulagés",
+            "text_style": "uppercase"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {}
+        },
+        "price": {
+          "type": "price",
+          "settings": {}
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true
+          }
+        },
+        "icon_benefits": {
+          "type": "icon-with-text",
+          "settings": {
+            "icon_1": "check-mark",
+            "heading_1": "Soulagement garanti",
+            "icon_2": "shield",
+            "heading_2": "Sans médicaments",
+            "icon_3": "star",
+            "heading_3": "4,9/5 étoiles"
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "text_badge",
+        "title",
+        "price",
+        "variant_picker",
+        "quantity_selector",
+        "buy_buttons",
+        "icon_benefits",
+        "description"
+      ],
+      "settings": {
+        "product": "",
+        "secondary_background": false,
+        "media_size": "large",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "gallery_layout": "stacked",
+        "media_position": "left",
+        "image_zoom": "lightbox",
+        "hide_variants": false,
+        "enable_video_looping": true,
+        "color_scheme": "scheme-1",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "how_it_works": {
+      "type": "multicolumn",
+      "blocks": {
+        "step1": {
+          "type": "column",
+          "settings": {
+            "title": "1. Installez-vous",
+            "text": "Allongez-vous confortablement sur votre dos et positionnez l'étireur sous la région lombaire.",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "step2": {
+          "type": "column",
+          "settings": {
+            "title": "2. Relaxez",
+            "text": "La courbure naturelle de l'étireur commence à décompresser doucement vos vertèbres et vos disques.",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "step3": {
+          "type": "column",
+          "settings": {
+            "title": "3. Ressentez le soulagement",
+            "text": "En 10 à 15 minutes par jour, réduisez les tensions, améliorez votre mobilité et retrouvez votre qualité de vie.",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "step1",
+        "step2",
+        "step3"
+      ],
+      "settings": {
+        "title": "Comment ça fonctionne ?",
+        "heading_size": "h1",
+        "image_width": "third",
+        "image_ratio": "adapt",
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-2",
+        "columns_desktop": 3,
+        "column_alignment_mobile": "left",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "image_with_text_science": {
+      "type": "image-with-text",
+      "blocks": {
+        "caption": {
+          "type": "caption",
+          "settings": {
+            "caption": "Approuvé par la science",
+            "icon_name": "none",
+            "text_style": "caption-with-letter-spacing"
+          }
+        },
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "La traction lombaire : une thérapie éprouvée"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>La décompression vertébrale est utilisée depuis des décennies par les kinésithérapeutes et chiropracteurs pour traiter les douleurs lombaires, les hernies discales et la sciatique.</p><p>Notre étireur reproduit ce mécanisme à domicile, de manière sûre et progressive, pour un soulagement durable sans médicaments.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "caption",
+        "heading",
+        "text"
+      ],
+      "settings": {
+        "height": "medium",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "color_scheme": "scheme-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "testimonials": {
+      "type": "multicolumn",
+      "blocks": {
+        "t1": {
+          "type": "column",
+          "settings": {
+            "title": "⭐⭐⭐⭐⭐ Marie L.",
+            "text": "\"J'avais des douleurs lombaires chroniques depuis 3 ans. Après 2 semaines d'utilisation, je dors enfin sans douleur. Incroyable !\"",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "t2": {
+          "type": "column",
+          "settings": {
+            "title": "⭐⭐⭐⭐⭐ Thomas B.",
+            "text": "\"Mon kiné me l'avait recommandé. Résultat bluffant. En 10 minutes le matin, ma journée au bureau est transformée.\"",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "t3": {
+          "type": "column",
+          "settings": {
+            "title": "⭐⭐⭐⭐⭐ Sophie M.",
+            "text": "\"Hernie discale L4-L5. J'ai essayé tout ce qui existe. Cet étireur est le seul produit qui m'a vraiment soulagée. Je recommande à 100%.\"",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "t1",
+        "t2",
+        "t3"
+      ],
+      "settings": {
+        "title": "Ce que disent nos clients",
+        "heading_size": "h1",
+        "image_width": "third",
+        "image_ratio": "square",
+        "column_alignment": "left",
+        "background_style": "shadow",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-1",
+        "columns_desktop": 3,
+        "column_alignment_mobile": "left",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "faq": {
+      "type": "collapsible-content",
+      "blocks": {
+        "q1": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Pour qui est recommandé l'étireur lombaire ?",
+            "row_content": "L'étireur lombaire convient aux personnes souffrant de douleurs lombaires chroniques, de hernies discales, de sciatique, de tensions musculaires, ou simplement souhaitant prévenir les maux de dos liés à la sédentarité.",
+            "icon": "none"
+          }
+        },
+        "q2": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Combien de temps faut-il l'utiliser ?",
+            "row_content": "Nous recommandons 10 à 15 minutes par jour, de préférence le matin ou le soir. Les premiers résultats se ressentent souvent dès la première semaine d'utilisation régulière.",
+            "icon": "none"
+          }
+        },
+        "q3": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Y a-t-il des contre-indications ?",
+            "row_content": "Consultez votre médecin si vous avez subi une chirurgie vertébrale récente, si vous êtes enceinte, ou si vous souffrez d'ostéoporose sévère. En cas de doute, demandez toujours l'avis d'un professionnel de santé.",
+            "icon": "none"
+          }
+        },
+        "q4": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Quels sont les délais et conditions de livraison ?",
+            "row_content": "Vos commandes sont expédiées sous 24h (jours ouvrés) et livrées en 2 à 5 jours selon votre pays. La livraison est offerte dès 50€ d'achat.",
+            "icon": "none"
+          }
+        },
+        "q5": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Puis-je retourner le produit si je ne suis pas satisfait ?",
+            "row_content": "Oui, absolument. Vous disposez de 30 jours pour changer d'avis et retourner le produit en parfait état. Le remboursement est intégral, sans questions.",
+            "icon": "none"
+          }
+        }
+      },
+      "block_order": [
+        "q1",
+        "q2",
+        "q3",
+        "q4",
+        "q5"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "Questions fréquentes",
+        "heading_size": "h1",
+        "layout": "none",
+        "container_color_scheme": "scheme-2",
+        "color_scheme": "scheme-2",
+        "open_first_collapsible_row": true,
+        "header_alignment": "center",
+        "image_ratio": "adapt",
+        "desktop_layout": "image_first",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "cta_newsletter": {
+      "type": "newsletter",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Rejoignez 10 000+ personnes soulagées"
+          }
+        },
+        "paragraph": {
+          "type": "paragraph",
+          "settings": {
+            "paragraph": "Inscrivez-vous à notre newsletter et recevez 10% de réduction sur votre première commande + nos conseils bien-être exclusifs."
+          }
+        },
+        "email_form": {
+          "type": "email_form",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "heading",
+        "paragraph",
+        "email_form"
+      ],
+      "settings": {
+        "full_width": true,
+        "color_scheme": "scheme-3",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    }
+  },
+  "order": [
+    "image_banner",
+    "trust_bar",
+    "featured_product",
+    "how_it_works",
+    "image_with_text_science",
+    "testimonials",
+    "faq",
+    "cta_newsletter"
+  ]
+}

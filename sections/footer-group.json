@@ -1,0 +1,61 @@
+{
+  "name": "t:sections.footer.name",
+  "type": "footer",
+  "sections": {
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "brand": {
+          "type": "brand_information",
+          "settings": {
+            "show_social": true
+          }
+        },
+        "menu_aide": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Aide & Support",
+            "menu": "footer"
+          }
+        },
+        "menu_legal": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Informations légales",
+            "menu": "footer-legal"
+          }
+        },
+        "contact_text": {
+          "type": "text",
+          "settings": {
+            "heading": "Nous contacter",
+            "subtext": "<p>Du lundi au vendredi, 9h–18h</p><p>Réponse sous 24h garantie</p><p>📧 support@votre-boutique.com</p>"
+          }
+        }
+      },
+      "block_order": [
+        "brand",
+        "menu_aide",
+        "menu_legal",
+        "contact_text"
+      ],
+      "settings": {
+        "color_scheme": "scheme-4",
+        "newsletter_enable": false,
+        "newsletter_heading": "Inscrivez-vous à notre newsletter",
+        "enable_follow_on_shop": false,
+        "show_social": true,
+        "enable_country_selector": false,
+        "enable_language_selector": false,
+        "payment_enable": true,
+        "show_policy": true,
+        "margin_top": 0,
+        "padding_top": 52,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "footer"
+  ]
+}
