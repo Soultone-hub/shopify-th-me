@@ -1,61 +1,66 @@
 {
-  "name": "t:sections.footer.name",
   "type": "footer",
+  "name": "Footer group",
   "sections": {
-    "footer": {
+    "footer_main": {
       "type": "footer",
       "blocks": {
-        "brand": {
-          "type": "brand_information",
+        "newsletter_group": {
+          "type": "group",
           "settings": {
-            "show_social": true
+            "title": "Rejoignez notre communauté bien-être"
+          },
+          "blocks": {
+            "newsletter_text": {
+              "type": "text",
+              "settings": {
+                "content": "<p>Recevez nos conseils santé et offres exclusives directement dans votre boîte mail.</p>"
+              }
+            },
+            "newsletter_signup": {
+              "type": "email-signup",
+              "settings": {
+                "border_radius": 100
+              }
+            }
+          },
+          "block_order": ["newsletter_text", "newsletter_signup"]
+        },
+        "footer_menu": {
+          "type": "menu",
+          "settings": {
+            "menu": "footer",
+            "heading": "Aide"
           }
         },
-        "menu_aide": {
-          "type": "link_list",
+        "footer_legal_menu": {
+          "type": "menu",
           "settings": {
-            "heading": "Aide & Support",
-            "menu": "footer"
-          }
-        },
-        "menu_legal": {
-          "type": "link_list",
-          "settings": {
-            "heading": "Informations légales",
-            "menu": "footer-legal"
-          }
-        },
-        "contact_text": {
-          "type": "text",
-          "settings": {
-            "heading": "Nous contacter",
-            "subtext": "<p>Du lundi au vendredi, 9h–18h</p><p>Réponse sous 24h garantie</p><p>📧 support@votre-boutique.com</p>"
+            "menu": "footer-legal",
+            "heading": "Informations légales"
           }
         }
       },
-      "block_order": [
-        "brand",
-        "menu_aide",
-        "menu_legal",
-        "contact_text"
-      ],
-      "settings": {
-        "color_scheme": "scheme-4",
-        "newsletter_enable": false,
-        "newsletter_heading": "Inscrivez-vous à notre newsletter",
-        "enable_follow_on_shop": false,
-        "show_social": true,
-        "enable_country_selector": false,
-        "enable_language_selector": false,
-        "payment_enable": true,
-        "show_policy": true,
-        "margin_top": 0,
-        "padding_top": 52,
-        "padding_bottom": 36
-      }
+      "block_order": ["newsletter_group", "footer_menu", "footer_legal_menu"],
+      "settings": {}
+    },
+    "footer_utilities": {
+      "type": "footer-utilities",
+      "blocks": {
+        "copyright": {
+          "type": "footer-copyright",
+          "settings": {
+            "show_powered_by": false
+          }
+        },
+        "policy_list": {
+          "type": "footer-policy-list",
+          "settings": {}
+        }
+      },
+      "block_order": ["copyright", "policy_list"],
+      "settings": {}
     }
   },
-  "order": [
-    "footer"
-  ]
+  "order": ["footer_main", "footer_utilities"]
 }
