@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "type": "footer",
   "name": "Footer group",
@@ -8,41 +17,158 @@
         "newsletter_group": {
           "type": "group",
           "settings": {
-            "title": "Rejoignez notre communauté bien-être"
+            "content_direction": "column",
+            "vertical_on_mobile": true,
+            "horizontal_alignment": "flex-start",
+            "vertical_alignment": "center",
+            "align_baseline": false,
+            "horizontal_alignment_flex_direction_column": "flex-start",
+            "vertical_alignment_flex_direction_column": "center",
+            "gap": 12,
+            "width": "fill",
+            "custom_width": 100,
+            "width_mobile": "fill",
+            "custom_width_mobile": 100,
+            "height": "fit",
+            "custom_height": 100,
+            "background_media": "none",
+            "background_color": "",
+            "video_position": "cover",
+            "background_image_position": "cover",
+            "toggle_overlay": false,
+            "overlay_color": "#00000026",
+            "overlay_style": "solid",
+            "gradient_direction": "to top",
+            "border": "none",
+            "border_width": 1,
+            "border_opacity": 100,
+            "border_color": "",
+            "border_radius": 0,
+            "link": "",
+            "open_in_new_tab": false,
+            "placeholder": "",
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
           },
           "blocks": {
             "newsletter_text": {
               "type": "text",
               "settings": {
-                "content": "<p>Recevez nos conseils santé et offres exclusives directement dans votre boîte mail.</p>"
-              }
+                "text": "",
+                "width": "fit-content",
+                "max_width": "normal",
+                "alignment": "left",
+                "type_preset": "rte",
+                "font": "var(--font-body--family)",
+                "font_size": "1rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "text_color": "",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
             },
             "newsletter_signup": {
               "type": "email-signup",
               "settings": {
-                "border_radius": 100
-              }
+                "width": "fill",
+                "custom_width": 100,
+                "heading": "",
+                "heading_text_color": "",
+                "heading_preset": "h3",
+                "border_style": "all",
+                "input_style": "default",
+                "border_width": 1,
+                "border_radius": 100,
+                "input_background_color": "",
+                "input_text_color": "",
+                "input_border_color": "",
+                "input_type_preset": "paragraph",
+                "style_class": "button",
+                "custom_button_background": "{{ settings.color_palette.foreground }}",
+                "custom_button_text": "{{ settings.color_palette.background }}",
+                "custom_button_border": "{{ settings.color_palette.background }}",
+                "link_text_color": "",
+                "display_type": "text",
+                "label": "S'inscrire",
+                "integrated_button": false,
+                "button_type_preset": "paragraph",
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
             }
           },
-          "block_order": ["newsletter_text", "newsletter_signup"]
+          "block_order": [
+            "newsletter_text",
+            "newsletter_signup"
+          ]
         },
         "footer_menu": {
           "type": "menu",
           "settings": {
             "menu": "footer",
-            "heading": "Aide"
-          }
+            "heading": "Aide",
+            "menu_spacing": 12,
+            "show_as_accordion": false,
+            "accordion_icon": "caret",
+            "accordion_dividers": false,
+            "background_color": "",
+            "text_color": "",
+            "heading_preset": "h3",
+            "link_preset": "paragraph",
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
         },
         "footer_legal_menu": {
           "type": "menu",
           "settings": {
-            "menu": "footer-legal",
-            "heading": "Informations légales"
-          }
+            "menu": "",
+            "heading": "Informations légales",
+            "menu_spacing": 12,
+            "show_as_accordion": false,
+            "accordion_icon": "caret",
+            "accordion_dividers": false,
+            "background_color": "",
+            "text_color": "",
+            "heading_preset": "h3",
+            "link_preset": "paragraph",
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
         }
       },
-      "block_order": ["newsletter_group", "footer_menu", "footer_legal_menu"],
-      "settings": {}
+      "block_order": [
+        "newsletter_group",
+        "footer_menu",
+        "footer_legal_menu"
+      ],
+      "settings": {
+        "section_width": "page-width",
+        "gap": 0,
+        "background_color": "{{ settings.color_palette.foreground }}",
+        "padding-block-start": 20,
+        "padding-block-end": 20
+      }
     },
     "footer_utilities": {
       "type": "footer-utilities",
@@ -50,17 +176,40 @@
         "copyright": {
           "type": "footer-copyright",
           "settings": {
-            "show_powered_by": false
-          }
+            "show_powered_by": false,
+            "text_color": "",
+            "font_size": "0.75rem",
+            "case": "none"
+          },
+          "blocks": {}
         },
         "policy_list": {
           "type": "footer-policy-list",
-          "settings": {}
+          "settings": {
+            "text_color": "",
+            "font_size": "0.75rem",
+            "case": "none"
+          },
+          "blocks": {}
         }
       },
-      "block_order": ["copyright", "policy_list"],
-      "settings": {}
+      "block_order": [
+        "copyright",
+        "policy_list"
+      ],
+      "settings": {
+        "section_width": "page-width",
+        "gap": 24,
+        "background_color": "{{ settings.color_palette.foreground }}",
+        "divider_thickness": 1,
+        "divider_color": "",
+        "padding-block-start": 20,
+        "padding-block-end": 20
+      }
     }
   },
-  "order": ["footer_main", "footer_utilities"]
+  "order": [
+    "footer_main",
+    "footer_utilities"
+  ]
 }
